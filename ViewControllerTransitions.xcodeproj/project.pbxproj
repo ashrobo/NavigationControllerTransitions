@@ -13,6 +13,8 @@
 		CF84DF511C3959F8009EF902 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CF84DF4F1C3959F8009EF902 /* Main.storyboard */; };
 		CF84DF531C3959F8009EF902 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CF84DF521C3959F8009EF902 /* Assets.xcassets */; };
 		CF84DF561C3959F8009EF902 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CF84DF541C3959F8009EF902 /* LaunchScreen.storyboard */; };
+		CF84DF5F1C395B5C009EF902 /* ModalViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CF84DF5E1C395B5C009EF902 /* ModalViewController.m */; };
+		CF84DF621C395BE9009EF902 /* PushPopAnimator.m in Sources */ = {isa = PBXBuildFile; fileRef = CF84DF611C395BE9009EF902 /* PushPopAnimator.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,10 @@
 		CF84DF521C3959F8009EF902 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CF84DF551C3959F8009EF902 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CF84DF571C3959F8009EF902 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CF84DF5D1C395B5C009EF902 /* ModalViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ModalViewController.h; sourceTree = "<group>"; };
+		CF84DF5E1C395B5C009EF902 /* ModalViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ModalViewController.m; sourceTree = "<group>"; };
+		CF84DF601C395BE9009EF902 /* PushPopAnimator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PushPopAnimator.h; sourceTree = "<group>"; };
+		CF84DF611C395BE9009EF902 /* PushPopAnimator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PushPopAnimator.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,14 +64,13 @@
 		CF84DF451C3959F8009EF902 /* ViewControllerTransitions */ = {
 			isa = PBXGroup;
 			children = (
-				CF84DF491C3959F8009EF902 /* AppDelegate.h */,
-				CF84DF4A1C3959F8009EF902 /* AppDelegate.m */,
 				CF84DF4C1C3959F8009EF902 /* ViewController.h */,
 				CF84DF4D1C3959F8009EF902 /* ViewController.m */,
+				CF84DF5D1C395B5C009EF902 /* ModalViewController.h */,
+				CF84DF5E1C395B5C009EF902 /* ModalViewController.m */,
+				CF84DF601C395BE9009EF902 /* PushPopAnimator.h */,
+				CF84DF611C395BE9009EF902 /* PushPopAnimator.m */,
 				CF84DF4F1C3959F8009EF902 /* Main.storyboard */,
-				CF84DF521C3959F8009EF902 /* Assets.xcassets */,
-				CF84DF541C3959F8009EF902 /* LaunchScreen.storyboard */,
-				CF84DF571C3959F8009EF902 /* Info.plist */,
 				CF84DF461C3959F8009EF902 /* Supporting Files */,
 			);
 			path = ViewControllerTransitions;
@@ -74,6 +79,11 @@
 		CF84DF461C3959F8009EF902 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				CF84DF491C3959F8009EF902 /* AppDelegate.h */,
+				CF84DF4A1C3959F8009EF902 /* AppDelegate.m */,
+				CF84DF571C3959F8009EF902 /* Info.plist */,
+				CF84DF541C3959F8009EF902 /* LaunchScreen.storyboard */,
+				CF84DF521C3959F8009EF902 /* Assets.xcassets */,
 				CF84DF471C3959F8009EF902 /* main.m */,
 			);
 			name = "Supporting Files";
@@ -149,6 +159,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CF84DF5F1C395B5C009EF902 /* ModalViewController.m in Sources */,
+				CF84DF621C395BE9009EF902 /* PushPopAnimator.m in Sources */,
 				CF84DF4E1C3959F8009EF902 /* ViewController.m in Sources */,
 				CF84DF4B1C3959F8009EF902 /* AppDelegate.m in Sources */,
 				CF84DF481C3959F8009EF902 /* main.m in Sources */,
